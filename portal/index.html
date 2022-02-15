@@ -1,0 +1,83 @@
+<html class="">
+
+<head>
+		<meta charset="utf-8">
+		<title>Huge Success!</title>
+		<link rel="icon" type="image/x-icon" href="https://netocon.github.io/FTP/files/aperture.ico">
+		<meta property="og:title" content="Huge Success" />
+		<meta property="og:type" content="Site" />
+		<meta property="og:url" content="https://netocon.github.io/FTP" />
+		<meta property="og:description" content="I'm making a note here..." />
+		<style media="" data-href="">
+
+
+
+
+body {
+	background-image: url("tile.jpg");
+	animation: disks 10s linear 0s infinite;
+}
+
+@keyframes disks {
+	0% {
+		background-position: 0 0;
+	}
+	/*50% {
+		background-position: 420px 420px;
+	}*/
+	100% {
+		background-position: 420px 420px;
+	}
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#click-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#message {
+	display: none;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+}
+
+
+#msg2 {
+        font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+</style>
+
+		<script src="/FTP/portal/jquery.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="/FTP/portal/script.js"></script>
+	</head>
+	<body>
+	<img src="radio.png" class="center">
+		<audio autoplay="" loop="">
+			<source src="/FTP/portal/radio.mp3">
+		</audio>
+		<div id="message">Clique para tocar</div>
+		<div id="click-overlay"></div>
+		<div id="msg2" style="margin-bottom: 4px">
+			Clique na pagina para tocar!<br>
+</div>
+</body>
+<test></test>
+</html>
